@@ -1,8 +1,7 @@
 .css:hover img {
-    filter: brightness(35%);
-  }
-  
-  .css:hover div{
-    display: flex;
-  }
-  
+  filter: brightness(35%);
+}
+
+.css:hover div {
+  display: flex;
+}

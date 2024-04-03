@@ -2,7 +2,6 @@ import './App.css'
 import { BookItem } from './components/BookItem/BookItem';
 
 
-
 const App = () => {
 
 
