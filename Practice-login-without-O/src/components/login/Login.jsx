@@ -7,6 +7,7 @@ const Login = () => {
 
     const handleChangeUsername = (e) => {
         const value = e.target.value
+
         if(value.toLowerCase().includes('o')){
             alert('Por favor, ¡Nombres de usuario sin la letra o!')
         }else{
@@ -15,9 +16,10 @@ const Login = () => {
     }
 
     const onClickRegister = () => {
-        if(Username.toLowerCase().includes('o')){
+        if(!Username || Username.toLowerCase().includes('o')){
             alert('Usuario inválido para registrarse')
         }else{
+            setUsername('')
             alert('¡Usuario registrado correctamente!')
         }
     }
